@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo - Inicio</title>
+</head>
+<style>
+   
+   *{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   body {
+        background-color:rgb(255, 255, 168);
+    }
+
+.perfil {
+        width: 25%;
+        height: 25%;
+        border : solid yellow 1px;
+    }
+   h1 {
+
+    margin-left: 10px;
+   }
+
+    hr{
+        color: black;
+        margin: 10px;
+    }
+    h2{
+        margin-left:10px;
+    }
+
+    p{
+        margin-left:5px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style:circle;
+        margin-left:20px;
+    }
+
+    li{
+        margin-left: 15px;
+        list-style: circle;
+    }
+
+    .link_experiencias{
+        margin-left:15px;
+        font-size: large;
+        margin-top: 50px;
+    }
+
+    div .experiencias{
+        display: flex;
+        flex-direction: column;
+        margin-left : 25px;
+    }
+
+    .titulo_experiencia{
+        margin-left:25px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .lista_experiencia{
+        margin-left: 50px;
+    }
+
+    .contatos{
+        margin-left: 15px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .texto_contato{
+        margin: 10px;
+    }
+</style>
+
+<body>
+
+    <img class = "perfil" src="imagens/arnaldo_recortado.png" >
+    <h1> Arnaldo</h1>
+
+    <hr>
+
+    <h2>Perfil</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem omnis explicabo qui, dolore saepe quam vitae earum expedita ducimus corporis perspiciatis hic ab maiores incidunt cumque temporibus quo cum cupiditate?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam recusandae placeat ipsa, veniam obcaecati eum eligendi repudiandae vel mollitia natus excepturi deserunt animi consequuntur sequi cumque earum. Et, aliquid earum?</p>
+
+    <hr>
+
+    <h2>Principais competências</h2>
+    <ul>
+        <li> bla </li>
+        <li> bla </li>
+        <li> bla </li>
+        <li> bla </li>
+        <li> bla </li>
+    </ul>
+
+    <hr>
+
+    <h2>Formação acadêmica</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure vitae explicabo veritatis, sed numquam est blanditiis ex assumenda alias nostrum culpa, quas inventore quae recusandae exercitationem ullam possimus beatae.</p>
+
+    <hr>
+
+    <h2>Experiências Profissionais</h2>
+    <div class = "experiencias"> 
+
+        <div class = "experiencia">
+            <p class = "titulo_experiencia"> 1 - empresa A</p>
+            <ul class = "lista_experiencia">
+                <li> abc</li>
+                <li>abc</li>
+            </ul>
+        </div>
+
+        <div class = "experiencia">
+            <p class = "titulo_experiencia"> 2 - empresa B</p>
+            <ul class = "lista_experiencia">
+                <li> abc</li>
+                <li>abc</li>
+            </ul>
+        </div>
+     </div>
+ <a class = "link_experiencias" href="experiencia.html"> saiba mais sobre as experiencias Profissionais</a>
+
+ <hr>
+
+ <h2>Contato</h2>
+
+ <div class = "contatos">
+
+    <div class = "contato">
+        <img src="imagens/endereço.png" width="30px" height="30px">
+        <p class = "texto_contato"> rua , numero , cidade</p>
+    </div>
+
+     <div class = "contato">
+        <img src="imagens/gmail.png" width="30px" height="30px">
+       <a> <p class = "texto_contato"> arnaldoProfissional@gmail.com</p></a>
+    </div>
+
+     <div class = "contato">
+        <img src="imagens/telefone.png" width="30px" height="30px">
+       <a> <p class = "texto_contato"> +55 45 67676767696969</p> </a>
+    </div>
+
+ </div>
+
+</body>
+</html>
