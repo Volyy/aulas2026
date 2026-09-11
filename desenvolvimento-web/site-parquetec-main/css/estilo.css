@@ -46,6 +46,8 @@ header  {
 
     z-index: 999;
 
+
+
 }
 
 header .menu {
@@ -223,11 +225,13 @@ header .menu .navegacao .idiomas img {
     scale: calc(0.9);
 }
 
+
+
 /* NOSSO BLOG */
 
 .nosso-blog{
 
-    background-color: #F9F9F9;
+    
     padding: 50px 0px 50px 0px;
 
 }
@@ -286,7 +290,11 @@ header .menu .navegacao .idiomas img {
 
     flex-direction: row;
 
+    justify-content: space-around;
+
     gap: 20px;
+
+     
 }
 
 .video{
@@ -295,8 +303,28 @@ header .menu .navegacao .idiomas img {
 
 }
 
-.tamb{
+.thumb{
     overflow: hidden;
 
+    
     border-radius: 10px;
+    width: 320px;
+    height: 191px;
+}
+
+.thumb img{
+
+    transition: all 0.3s;
+
+    width: 90%;
+    height: 100%;
+
+    transform: scale(1.4);
+
+}
+
+.thumb img:hover{
+
+    transform: scale(1.6);
+
 }
