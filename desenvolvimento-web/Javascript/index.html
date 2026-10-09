@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>hello Word</h1>
+
+<P>olá , o  <span id="classes"> ???</span> <span id="adjetivos">???</span> de <span id="lugares">???</span></P>
+
+    <script>
+
+        let classes = ["Paladino" , "Mago" , "fenticeiro" , "Arqueiro" , "druida" ]
+        
+        let adjetivos = ["Valente" , "Implacável" , "inabalavel" , "supremo" , "honrado" , "glorioso"]
+
+        let lugares = ["gondor" , "Vahalla" , "Rivendell" , "minas Tirith" , "Erebor"]
+
+        let frases = ["maravilhosa" , "MELHOR COM O 2°TDS" , "muito boa!" ]
+
+        let classe = document.querySelector("p #classes")
+        classe.innerText = classes[Math.floor(Math.random() * 5)]
+
+        let adjetivo = document.querySelector("p #adjetivos")
+        adjetivo.innerText = adjetivos[Math.floor(Math.random() * 6)]
+
+        let lugar = document.querySelector("p #lugares")
+        lugar.innerText = lugares[Math.floor(Math.random() * 5)]
+
+    </script>
+
+  
+
+</body>
+</html>
