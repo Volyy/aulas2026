@@ -2,7 +2,7 @@
 
 require_once("Cliente.php");
 
-class ClientePF extends Cliente {
+class ClientePJ extends Cliente {
 
     private string $RazaoSocial;
     private string $cnpj;
@@ -17,7 +17,7 @@ class ClientePF extends Cliente {
     }
 
     public function getTipo(){
-        return "Pessoa Juridica";
+        return "J";
     }
 
     

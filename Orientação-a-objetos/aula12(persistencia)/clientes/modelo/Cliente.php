@@ -12,7 +12,13 @@ abstract class Cliente{
 
     public abstract function getTipo();
 
-    
+    public function __toString()
+    {
+        $dados = sprintf("%d | %s | %s | %s | %s | %s" , 
+                        $this->id , $this->getTipo() , $this->nomeSocial , $this->email , $this->getNome() , $this->getNroDoc());      
+
+        return $dados;
+    }
 
 
     /**
